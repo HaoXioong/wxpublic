@@ -1,0 +1,11 @@
+wx:
+  mp:
+    useRedis: false
+    redisConfig:
+      host: 127.0.0.1
+      port: 6379
+    configs:
+      - appId: wxad964917e83a80d3 # 第一个公众号的appid
+        secret: b6fef1bf1ebf01d21e5ba114853148d9 # 公众号的appsecret
+        token: abc # 接口配置里的Token值
+        aesKey:  # 接口配置里的EncodingAESKey值
